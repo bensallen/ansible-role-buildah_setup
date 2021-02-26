@@ -1,0 +1,8 @@
+---
+buildah_base_image: ""
+
+buildah_target_name: "{{ inventory_hostname }}"
+
+buildah_working_name: "{{ buildah_target_name }}-{{ansible_date_time.iso8601_basic_short }}-work"
+
+buildah_build_host: localhost

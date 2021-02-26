@@ -1,0 +1,2 @@
+---
+buildah_install_python_cmd: "dnf -y install python3"

@@ -1,0 +1,2 @@
+--
+buildah_install_python_cmd: "zypper -n install --no-recommends python3"
